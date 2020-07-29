@@ -43,7 +43,7 @@ client.on("message", async message => {
 
 async function help(message) {
     return message.channel.send(
-        "--play ---> Iniciar o Radio \n--stop ---> Parar o Radio"
+        "--play ---> Iniciar o Radio \n--stop ---> Parar o Radio \n By Lampiola."
     );
         
 }
