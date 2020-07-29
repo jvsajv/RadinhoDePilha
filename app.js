@@ -72,9 +72,5 @@ process.on('unhandledRejection', (reason, promise) => {
     console.log('Unhandled Rejection at:', promise, 'reason:', reason);
     // Application specific logging, throwing an error, or other logic here
   });
-  
-  somePromise.then((res) => {
-    return reportToUser(JSON.pasre(res)); // Note the typo (`pasre`)
-  }); // No `.catch()` or `.then()`
-  
+
 client.login(token);
