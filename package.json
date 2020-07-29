@@ -1,0 +1,29 @@
+{
+  "name": "radinhodepilha",
+  "version": "1.0.0",
+  "description": "Bot de radio 24/7 para discord",
+  "main": "App.js",
+  "scripts": {
+    "nodemon": "nodemon App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvsajv/RadinhoDePilha.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jvsajv/RadinhoDePilha/issues"
+  },
+  "homepage": "https://github.com/jvsajv/RadinhoDePilha#readme",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "ffmpeg": "0.0.4",
+    "node-opus": "^0.3.3",
+    "nodemon": "^2.0.4",
+    "opusscript": "0.0.7",
+    "ytdl-core": "^3.2.0"
+  }
+}
