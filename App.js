@@ -32,10 +32,21 @@ client.on("message", async message => {
     } else if (message.content.startsWith(`${prefix}stop`)) {
         stop(message);
         return;
+    }
+    else if (message.content.startsWith(`${prefix}help`)) {
+        help(message);
+        return;
     } else {
         message.channel.send("You need to enter a valid command!");
     }
 });
+
+async function help(message) {
+    return message.channel.send(
+        "--play ---> Iniciar o Radio \n--stop ---> Parar o Radio"
+    );
+        
+}
 
 async function stop(message) {
     if (!message.member.voice.channel)
