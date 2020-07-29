@@ -4,7 +4,7 @@
   "description": "Bot de radio 24/7 para discord",
   "main": "App.js",
   "scripts": {
-    "nodemon": "nodemon ./app/bot.js",
+    "nodemon": "nodemon bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
