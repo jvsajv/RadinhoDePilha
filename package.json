@@ -2,9 +2,9 @@
   "name": "radinhodepilha",
   "version": "1.0.0",
   "description": "Bot de radio 24/7 para discord",
-  "main": "app.js",
+  "main": "./src/app.js",
   "scripts": {
-    "nodemon": "nodemon app.js",
+    "nodemon": "nodemon ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
